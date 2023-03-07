@@ -1,11 +1,14 @@
 h1 {
   font-family: sans-serif;
-  color: darkblue;
 }
 
 h2 {
   text-align: left;
   font-family: sans-serif;
+}
+
+h3 {
+  color: rgba(darkblue,0.8);
 }
 
 p {
