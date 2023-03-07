@@ -1,5 +1,11 @@
 h1 {
   font-family: sans-serif;
+  color: darkblue;
+}
+
+h2 {
+  text-align: left;
+  font-family: sans-serif;
 }
 
 p {
@@ -19,17 +25,8 @@ mark {
   background-color: pink;
 }
 
-h2 {
-  text-align: left;
-  font-family: sans-serif;
-}
-
 pre {
   font-family: monospace;
   size: 100%;
 }
 
-h3 {
-  color: darkblue
-  rgba(0,0,54,5,0.8);
-}
