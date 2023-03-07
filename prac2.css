@@ -29,3 +29,7 @@ pre {
   size: 100%;
 }
 
+h3 {
+  color: darkblue
+  rgba(0,0,54,5,0.8);
+}
