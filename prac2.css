@@ -2,6 +2,7 @@ body {
   background-color: #DCF5F5;
   background-image: url(images/cross.png);
   background-repeat: repeat;
+  font-family: 'Noto Serif', serif;
 }
 
 h1 {
