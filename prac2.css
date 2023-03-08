@@ -193,13 +193,14 @@ table {
   text-align: left;
 }
 
-.fancy-table {
+table.fancy-table{
   width: 500px;
   border-collapse: collapse;
 }
 
-.fancy-table tr {
+.fancy-table tr th {
   border-bottom: 1pt solid darkgrey;
+  font-weight: normal;
 }
 
 .fancy-table tr.header {
