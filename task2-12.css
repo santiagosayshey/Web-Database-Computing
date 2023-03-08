@@ -6,7 +6,6 @@ body {
   margin-bottom: 0;
 }
 .main {
-  display: flex;
   background-color: white;
   width: auto;
   height: 100%;
