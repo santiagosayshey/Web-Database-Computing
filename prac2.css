@@ -155,7 +155,7 @@ i {
   color: #BFCFD4;
 }
 
-ol {
+ol.horizontal{
   background-color: darkgrey;
   padding: 0.4em;
 }
