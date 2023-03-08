@@ -235,3 +235,18 @@ table.fancy-table{
   padding: 8px;
   color: black;
 }
+
+.complex-table {
+  border-collapse: collapse;
+  border: solid 1.5pt black;
+}
+.complex-table .complex-header {
+  background-color: palegoldenrod;
+  font-weight: bold;
+}
+
+.complex-table tr th {
+  border: solid 1pt black;
+  padding: 6px;
+  font-weight: normal;
+}
