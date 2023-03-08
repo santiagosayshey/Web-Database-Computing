@@ -188,3 +188,13 @@ ol ul ol li {
 ol ul li {
   list-style-type: square;
 }
+
+.fancy-table tr {
+  background-color: darkslategrey;
+  border-bottom: darkgrey;
+  width: 500px;
+}
+
+.fancy-table tr th{
+  color: white;
+}
