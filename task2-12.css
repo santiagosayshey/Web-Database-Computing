@@ -54,9 +54,25 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Quicksand', serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .navbar li a:hover {
   background-color: white;
   color: darkorange;
+}
+
+h1 {
+  font-family: 'Quicksand', serif;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+body p {
+  font-family: 'Quicksand', serif;
+  font-size: larger;
+  font-weight: 100pt;
+  padding: 15px;
 }
