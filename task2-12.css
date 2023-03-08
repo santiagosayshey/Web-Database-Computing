@@ -150,7 +150,8 @@ table tr th {
 
 .lower-body {
   display: flex;
-  padding: 30px;
+  padding: 20px;
+  padding-left: 0;
 }
 
 h2 {
