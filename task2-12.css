@@ -118,3 +118,9 @@ body {
   width: fit-content;
   font-family: 'Quicksand', serif;
 }
+
+#bob-q {
+  font-style: italic;
+  font-family: 'Quicksand', serif;
+  display: flex;
+}
