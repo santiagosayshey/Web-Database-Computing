@@ -104,15 +104,17 @@ body {
   font-size: 20pt;
   font-weight: 100pt;
   margin: auto;
-  display: inline-block;
+  display: flex;
 }
 
 .upper-body-right a {
-  display: inline-block;
+  text-align: center;
+  display: flex;
   text-decoration: none;
 }
 
 .upper-body-right q {
-  display: inline-block;
+  display: flex;
   width: fit-content;
+  font-family: 'Quicksand', serif;
 }
