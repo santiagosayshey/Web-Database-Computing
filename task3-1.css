@@ -1,5 +1,6 @@
 .bold {
     font-weight: bold;
+    background-color: green;
 }
 
 .normal {
@@ -51,5 +52,5 @@ div + div span span.normal {
 }
 
 .bold .normal {
-    background-color: green;
+
 }
