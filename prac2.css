@@ -155,7 +155,7 @@ i {
   color: #BFCFD4;
 }
 
-ul {
+ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -163,7 +163,7 @@ ul {
   background-color: darkgrey;
 }
 
-li {
+ul.navbar li {
   float: left;
 }
 
