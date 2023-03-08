@@ -239,18 +239,17 @@ table.fancy-table{
 .complex-table {
   border-collapse: collapse;
   border: solid 1.5pt black;
+  width: 500px;
 }
+
 .complex-table .complex-header {
   background-color: palegoldenrod;
   font-weight: bold;
-}
-
-.complex-table .complex-header th {
-  font-weight: bold;
+  border: solid 1pt black;
 }
 
 .complex-table tr th {
-  border: solid 1pt black;
+  border: solid 1pt lightgrey;
   padding: 6px;
   font-weight: normal;
 }
