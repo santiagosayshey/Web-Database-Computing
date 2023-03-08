@@ -182,10 +182,10 @@ ul.navbar li a:hover {
   color: darkgrey;
 }
 
-ol ol ol li {
+ol ul ol li {
   list-style-type: lower-roman;
 }
 
-ol ol li {
+ol ul li {
   list-style-type: square;
 }
