@@ -148,7 +148,9 @@ h4 {
   text-decoration: underline;
 }
 
-i {
-  text-align: center;
+#icons {
   color: #BFCFD4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
