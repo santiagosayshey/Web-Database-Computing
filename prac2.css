@@ -269,13 +269,11 @@ table.fancy-table{
 .child {
   width: 50%;
   float: left;
-  border-radius: 10px;
-  border: darkgrey solid;
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  border: 2px solid red;
 }
 
-.parent div {
-  height: 400px;
+.parent {
+  border: 3px solid #fff;
+  padding: 20px;
 }
