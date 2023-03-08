@@ -155,26 +155,22 @@ i {
   color: #BFCFD4;
 }
 
-ul {
-  padding: 0.8em;
-  background-color: darkgrey;
-}
-
 li {
   display: inline;
   width: 60px;
   padding: 0.8em;
-  background-color: darkgray;
 }
 
 li a {
   text-decoration: none;
   color: white;
+  background-color: darkgrey;
+  padding-left: 10px;
 }
 
-li.horizontal:hover {
+li a:hover {
   color: darkgrey;
-  background-color: white;
+  background: white;
 }
 
 .roman-numeral {
