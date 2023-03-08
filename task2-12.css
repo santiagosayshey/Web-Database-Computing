@@ -99,13 +99,18 @@ body {
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  border-radius: 15px;
+  border-radius: 10px;
   text-decoration: none;
+  font-size: 15pt;
+}
+
+#register a {
+  color: darkorange;
 }
 
 table {
   border-collapse: collapse;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 table tr th {
   text-align: left;
