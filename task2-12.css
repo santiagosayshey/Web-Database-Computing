@@ -48,25 +48,22 @@ body {
 
 .navbar li {
   float: left;
-  flex-direction: row;
 }
 
 .navbar li a {
-  padding: 30px;
+  display: block;
   color: dimgrey;
   text-align: center;
-  margin: 10px;
+  padding: 14px 20px;
   text-decoration: none;
-  font-family: 'Quicksand', serif;
   font-size: larger;
-  font-weight: bold;
 }
 
+/* Change the link color to #111 (black) on hover */
 .navbar li a:hover {
   background-color: white;
   color: darkorange;
 }
-
 .vert-line {
   border-right: solid 1pt darkgrey;
 }
