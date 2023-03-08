@@ -45,6 +45,10 @@ pre {
 
 #content {
   background-color: white;
+  border-style: solid;
+  border: 1px;
+  border-radius: 8px;
+  border-color: darkgrey;
 }
 
 .blue {
@@ -53,4 +57,38 @@ pre {
 
 .fancy {
   font-family: cursive;
+}
+
+.red-border {
+  border-style: solid;
+  border-color: red;
+}
+
+.blue-border {
+  border-style: solid;
+  border-color: blue;
+}
+
+hr {
+  border-color: #CFDFE4;
+}
+
+.red-outline {
+  outline-color: red;
+  outline-style: solid;
+}
+
+.red-border-top {
+  border-style: solid;
+  border-bottom: none;
+  border-color: red;
+  border-top-left-radius: 8px ;
+  border-top-right-radius: 8px;
+}
+
+.blue-border-bottom {
+  border-style: solid;
+  border-color: blue;
+  border-bottom-left-radius: 8px ;
+  border-bottom-right-radius: 8px;
 }
