@@ -258,22 +258,14 @@ table.fancy-table{
   width: 600px;
 }
 
-.top-div {
-  border-radius: 10px;
-  border: darkgrey solid;
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
 }
 
-.child {
+.float-child {
   width: 50%;
   float: left;
   padding: 20px;
   border: 2px solid red;
-}
-
-.parent {
-  border: 3px solid #fff;
-  padding: 20px;
-}
+}  
