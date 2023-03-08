@@ -160,20 +160,20 @@ ol.horizontal{
   padding: 0.4em;
 }
 
-li {
+li.horizontal {
   background-color: darkgrey;
   display: inline;
   padding: 0.4em;
   color: white;
 }
 
-li:hover {
+li.horizontal:hover {
   display: inline;
   padding: 0.4em;
   background-color: white;
   color: darkgrey;
 }
 
-#horizontal {
-
+.roman-numeral {
+  list-style-type: upper-roman;
 }
