@@ -287,6 +287,9 @@ table.fancy-table{
   overflow: hidden;
 }
 
+.right p {
+  display: flex;
+}
 .all {
   width: 600px;
   margin: auto;
