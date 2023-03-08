@@ -266,14 +266,21 @@ table.fancy-table{
   margin: 10px;
 }
 
-div.left {
+.left {
+  border-radius: 10px;
+  border: darkgrey solid;
+  background-color: white;
+  margin: 10px;
   float: left;
   width: 25%;
   height: 400px;
 }
 
-div.right {
+.right {
+  border-radius: 10px;
+  border: darkgrey solid;
+  background-color: white;
+  margin: 10px;
   height: 400px;
-  width: auto;
   display: flex;
 }
