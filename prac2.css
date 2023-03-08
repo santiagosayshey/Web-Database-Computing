@@ -284,22 +284,25 @@ table.fancy-table{
 }
 
 .right {
+  display: flex;
+  overflow: hidden;
 }
 
 .right p {
   display: block;
+
 }
 
 .all {
   width: 600px;
 }
 
-div.red-box {
+.red-box {
   margin-top: 100px;
   margin-bottom: 100px;
   width: 1000px;
   height: 100px;
   display: block;
   border: solid red;
-  overflow: hidden;
+
 }
