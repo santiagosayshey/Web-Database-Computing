@@ -155,25 +155,15 @@ i {
   color: #BFCFD4;
 }
 
-ol.horizontal{
-  background-color: darkgrey;
-  padding: 0.4em;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-li.horizontal {
-  background-color: darkgrey;
-  display: inline;
-  padding: 0.4em;
-  color: white;
+a {
+  text-decoration: none;
 }
-
-li.horizontal:hover {
-  display: inline;
-  padding: 0.4em;
-  background-color: white;
-  color: darkgrey;
-}
-
 .roman-numeral {
   list-style-type: lower-roman;
 }
