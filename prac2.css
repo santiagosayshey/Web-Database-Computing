@@ -150,9 +150,6 @@ h4 {
   font-weight: normal;
 }
 
-#icons {
+i {
   color: #BFCFD4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
