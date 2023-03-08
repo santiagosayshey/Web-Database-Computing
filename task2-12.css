@@ -179,6 +179,7 @@ table tr th {
 
 .table-header th {
   background-color: dimgray;
+  color: white;
 }
 
 .table-inner-odd th {
