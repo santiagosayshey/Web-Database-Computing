@@ -266,7 +266,7 @@ table.fancy-table{
   margin: 10px;
 }
 
-.middle {
+.middle div {
   margin: 10px;
   height: 400px;
 }
@@ -280,5 +280,5 @@ table.fancy-table{
 
 .right {
   width: auto;
-  display: inline-flex;
+  display: flex;
 }
