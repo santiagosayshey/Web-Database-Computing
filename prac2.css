@@ -302,7 +302,6 @@ table.fancy-table{
   margin-bottom: 100px;
   width: 1000px;
   height: 100px;
-  display: block;
   border: solid red;
 
 }
