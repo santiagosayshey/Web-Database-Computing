@@ -52,10 +52,9 @@ body {
 }
 
 .navbar li a {
-  padding: 10px;
+  padding: 30px;
   color: dimgrey;
   text-align: center;
-  padding: 30px;
   margin: 10px;
   text-decoration: none;
   font-family: 'Quicksand', serif;
