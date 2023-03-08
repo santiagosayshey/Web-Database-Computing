@@ -175,5 +175,9 @@ li.horizontal:hover {
 }
 
 .roman-numeral {
-  list-style-type: upper-roman;
+  list-style-type: lower-roman;
+}
+
+.dotted-list {
+  list-style-type: square;
 }
