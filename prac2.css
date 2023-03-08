@@ -267,19 +267,12 @@ table.fancy-table{
 }
 
 .left {
-  border-radius: 10px;
-  border: darkgrey solid;
-  background-color: white;
   margin: 10px;
-  float: left;
-  width: 25%;
   height: 400px;
+  display: flex;
 }
 
 .right {
-  border-radius: 10px;
-  border: darkgrey solid;
-  background-color: white;
   margin: 10px;
   height: 400px;
   display: flex;
