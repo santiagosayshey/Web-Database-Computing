@@ -301,3 +301,20 @@ table.fancy-table{
   border: solid red;
 
 }
+
+.bottom {
+  display: flex;
+}
+
+.bottom-right {
+  height: 400px;
+  background-color: white;
+  border: solid grey;
+}
+
+.bottom-left {
+  height: 400px;
+  background-color: white;
+  border: solid grey;
+  overflow: scroll;
+}
