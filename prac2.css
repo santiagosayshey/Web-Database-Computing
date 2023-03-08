@@ -295,6 +295,7 @@ table.fancy-table{
 
 .all {
   width: 600px;
+  margin: auto;
 }
 
 .red-box {
