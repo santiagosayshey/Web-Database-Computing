@@ -92,3 +92,45 @@ hr {
   border-bottom-left-radius: 8px ;
   border-bottom-right-radius: 8px;
 }
+
+#top-outer-div {
+  background-color: blue;
+  border-style: solid;
+  border-color: red;
+}
+
+#top-inner-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px;
+  width: 700px;
+  height: 200px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: red;
+  background: yellow;
+  text-align: right;
+}
+
+#bottom-outer-div {
+  margin-top: 20px;
+  background-color: blue;
+  border-style: solid;
+  border-color: red;
+}
+
+#bottom-inner-div {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  text-align: right;
+  padding: 12px;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: red;
+  background: yellow;
+}
