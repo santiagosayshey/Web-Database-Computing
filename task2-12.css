@@ -90,7 +90,6 @@ body {
   display: inline-block;
   padding: 10px;
   display: inline-block;
-  width: 520px;
   align-items: center;
 }
 
@@ -110,4 +109,9 @@ body {
 .upper-body-right a {
   text-decoration: none;
   width: 200px;
+}
+
+.upper-body-right q {
+  display: inline;
+  width: fit-content;
 }
