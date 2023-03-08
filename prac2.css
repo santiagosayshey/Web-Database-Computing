@@ -172,11 +172,10 @@ li a {
   color: white;
 }
 
-li.unqLI:hover {
-  background-color: white;
+li.horizontal:hover {
   color: darkgrey;
+  background-color: white;
 }
-
 
 .roman-numeral {
   list-style-type: lower-roman;
