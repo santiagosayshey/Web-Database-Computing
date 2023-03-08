@@ -167,7 +167,7 @@ ul.navbar li {
   float: left;
 }
 
-li a {
+ul.navbar li a {
   display: block;
   background-color: ;
   color: white;
@@ -177,15 +177,15 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+ul.navbar li a:hover {
   background-color: white;
   color: darkgrey;
 }
 
-.roman-numeral {
+ol ol ol li {
   list-style-type: lower-roman;
 }
 
-.dotted-list {
+ol ol li {
   list-style-type: square;
 }
