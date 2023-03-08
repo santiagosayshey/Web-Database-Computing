@@ -156,17 +156,28 @@ i {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
+  padding: 0.8em;
+  background-color: darkgrey;
 }
 
-li a{
-  text-decoration: none;
+li {
   display: inline;
   width: 60px;
+  padding: 0.8em;
+  background-color: darkgray;
 }
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li.unqLI:hover {
+  background-color: white;
+  color: darkgrey;
+}
+
+
 .roman-numeral {
   list-style-type: lower-roman;
 }
