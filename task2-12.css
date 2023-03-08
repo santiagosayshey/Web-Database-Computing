@@ -129,11 +129,21 @@ body {
   display: flex;
 }
 
+table {
+  border-collapse: collapse;
+}
 table tr th {
   text-align: left;
   font-weight: normal;
+  border-bottom: solid 1pt darkgray;
+  padding: 10px;
+  width: 300px;
 }
 
 .table-header th {
   background-color: dimgray;
+}
+
+.table-inner-odd th {
+  background-color: #F8F8F8;
 }
