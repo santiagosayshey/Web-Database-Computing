@@ -259,13 +259,22 @@ table.fancy-table{
 }
 
 .round-div {
-  margin: 10x;
+  margin: 10px;
   border-radius: 10px;
   border: darkgrey solid;
   background-color: white;
   padding: 10px;
 }
 
-.left .right {
+div.left {
+  display: inline;
+  float: left;
   height: 400px;
+  width: auto;
+}
+
+div.right {
+  height: 400px;
+  width: auto;
+  display: inline-block;
 }
