@@ -258,7 +258,7 @@ table.fancy-table{
   width: 600px;
 }
 
-.round-div {
+.top-div {
   border-radius: 10px;
   border: darkgrey solid;
   background-color: white;
@@ -266,23 +266,16 @@ table.fancy-table{
   margin: 10px;
 }
 
-.middle div {
-  height: 400px;
-
-}
-.left {
-  overflow: scroll;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  width: 25%;
+.child {
+  width: 50%;
   float: left;
+  border-radius: 10px;
+  border: darkgrey solid;
+  background-color: white;
+  padding: 10px;
   margin: 10px;
 }
 
-.right {
-  overflow: hidden;
-  width: fit-content;
-  
-  width: 60%;
+.parent div {
+  height: 400px;
 }
-
