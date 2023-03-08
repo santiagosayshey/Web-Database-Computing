@@ -70,16 +70,33 @@ body {
   padding-top: 0;
   border-right: solid 1pt darkgrey;
   width: fit-content;
-  display: inline;
+  display: inline-block;
 }
 
 .upper-body-left h1 {
   font-family: 'Quicksand', serif;
   font-weight: bolder;
+  display: block;
 }
 
 .upper-body-left p {
   font-family: 'Quicksand', serif;
   font-size: larger;
   font-weight: 100pt;
+  display: block;
+}
+
+.upper-body-right {
+  display: inline-block;
+  padding: 30px;
+  width: auto;
+}
+
+.upper-body-right #get-started-button {
+  background: darkorange;
+  text-align: center;
+  border-radius: 10px;
+  border: solid darkorange;
+  display: block;
+  color: white;
 }
