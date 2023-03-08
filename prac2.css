@@ -160,9 +160,15 @@ ol {
 }
 
 li {
+  background-color: darkgrey;
   display: inline;
   padding: 0.4em;
   color: white;
+}
+
+li:hover {
+  background-color: white;
+  color: darkgrey;
 }
 
 #horizontal {
