@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-  color: rgba(0,0,54.5,0.8);
+  color: rgba(0,0,139,0.8);
 }
 
 p {
@@ -34,5 +34,5 @@ pre {
 }
 
 .transparent-text {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,50%);
 }
