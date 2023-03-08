@@ -151,6 +151,10 @@ h2 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   vertical-align:middle;
+  position:absolute;
+  bottom:0;
+  width: 90%;
+  margin: auto;
 }
 
 .footer h2 {
@@ -159,6 +163,7 @@ h2 {
   font-family: 'Pacifico', sans-serif;
   color: lightgrey;
   display: inline;
+
 }
 
 .footer p {
