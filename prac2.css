@@ -5,12 +5,12 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: 'raleway', sans-serif;
 }
 
 h2 {
   text-align: left;
-  font-family: sans-serif;
+  font-family: 'raleway', sans-serif;
 }
 
 h3 {
@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-  font-family: serif;
+  font-family: 'Noto Serif', serif;
 }
 
 a {
@@ -133,4 +133,11 @@ hr {
   border-style: solid;
   border-color: red;
   background: yellow;
+}
+
+#a {
+  color: dimgrey;
+  line-height: 1.5;
+  word-spacing: 0.2em;
+  text-align: justify;
 }
