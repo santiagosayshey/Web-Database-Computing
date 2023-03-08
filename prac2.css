@@ -245,6 +245,10 @@ table.fancy-table{
   font-weight: bold;
 }
 
+.complex-table .complex-header th {
+  font-weight: bold;
+}
+
 .complex-table tr th {
   border: solid 1pt black;
   padding: 6px;
