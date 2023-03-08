@@ -155,6 +155,16 @@ i {
   color: #BFCFD4;
 }
 
+ol {
+  background-color: darkgrey;
+}
+
 li {
   display: inline;
+  padding: 0.4em;
+  color: white;
+}
+
+#horizontal {
+
 }
