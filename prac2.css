@@ -195,6 +195,11 @@ table {
 
 .fancy-table {
   width: 500px;
+  border-collapse: collapse;
+}
+
+.fancy-table tr {
+  border-bottom: 1pt solid darkgrey;
 }
 
 .fancy-table tr.header {
