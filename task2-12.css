@@ -104,14 +104,15 @@ body {
   font-size: 20pt;
   font-weight: 100pt;
   margin: auto;
+  display: inline-block;
 }
 
 .upper-body-right a {
+  display: inline-block;
   text-decoration: none;
-  width: 200px;
 }
 
 .upper-body-right q {
-  display: inline;
+  display: inline-block;
   width: fit-content;
 }
