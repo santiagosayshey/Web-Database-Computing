@@ -267,14 +267,15 @@ table.fancy-table{
 }
 
 div.left {
-  display: inline;
+  margin: 10px;
   float: left;
+  width: 25%;
   height: 400px;
-  width: auto;
 }
 
 div.right {
+  margin: 10px;
   height: 400px;
   width: auto;
-  display: inline-block;
+  display: flex;
 }
