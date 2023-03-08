@@ -154,3 +154,7 @@ h4 {
 i {
   color: #BFCFD4;
 }
+
+li {
+  display: inline;
+}
