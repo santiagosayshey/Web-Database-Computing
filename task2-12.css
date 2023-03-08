@@ -89,47 +89,15 @@ body {
   font-weight: 100pt;
 }
 
-.upper-body-right {
-  display: inline-block;
-  padding: 10px;
-  display: inline-block;
-  align-items: center;
-}
-
-.upper-body-right #get-started-button {
-  background: darkorange;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  border: solid darkorange;
-  color: white;
-  font-family: 'Quicksand', serif;
-  font-size: 20pt;
-  font-weight: 100pt;
-  margin: auto;
-  display: flex;
-}
-
-.upper-body-right a {
-  text-align: center;
-  display: flex;
-  text-decoration: none;
-}
-
-.upper-body-right q {
-  display: flex;
-  width: fit-content;
-  font-family: 'Quicksand', serif;
-}
-
-#bob-q {
+.quote-person {
   font-style: italic;
-  font-family: 'Quicksand', serif;
-  display: flex;
 }
+
+
 
 table {
   border-collapse: collapse;
+  margin-right: 20px;
 }
 table tr th {
   text-align: left;
@@ -152,6 +120,10 @@ table tr th {
   display: flex;
   padding: 20px;
   padding-left: 0;
+}
+
+.lower-body-left {
+  padding: 10px;
 }
 
 h2 {
