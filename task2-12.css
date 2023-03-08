@@ -88,15 +88,21 @@ body {
 
 .upper-body-right {
   display: inline-block;
-  padding: 30px;
-  width: auto;
+  padding: 10px;
+  display: inline-block;
+  width: 520px;
+  align-items: center;
 }
 
 .upper-body-right #get-started-button {
   background: darkorange;
   text-align: center;
+  padding: 20px;
   border-radius: 10px;
   border: solid darkorange;
-  display: block;
   color: white;
+  font-family: 'Quicksand', serif;
+  font-size: 20pt;
+  font-weight: 100pt;
+  margin: 0;
 }
