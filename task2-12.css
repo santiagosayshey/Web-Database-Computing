@@ -104,5 +104,10 @@ body {
   font-family: 'Quicksand', serif;
   font-size: 20pt;
   font-weight: 100pt;
-  margin: 0;
+  margin: auto;
+}
+
+.upper-body-right a {
+  text-decoration: none;
+  width: 200px;
 }
