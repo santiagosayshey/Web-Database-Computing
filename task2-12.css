@@ -1,0 +1,13 @@
+body {
+  background: papayawhip;
+  background-image: url(images/dots.png);
+  background-repeat: repeat;
+}
+
+.main {
+  background-color: white;
+  border: solid grey;
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+}
