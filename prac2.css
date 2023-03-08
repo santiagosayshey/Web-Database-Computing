@@ -189,12 +189,19 @@ ol ul li {
   list-style-type: square;
 }
 
+.fancy-table {
+  width: 500px;
+}
 .fancy-table tr {
   background-color: darkslategrey;
   border-bottom: darkgrey;
-  width: 500px;
+  text-align: left;
 }
 
 .fancy-table tr th{
+  padding: 8px;
   color: white;
+  font-weight: normal;
+  border-left: none;
+  border-right: none;
 }
