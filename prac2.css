@@ -265,7 +265,7 @@ table.fancy-table{
 
 .float-child {
   width: 50%;
-  float: left;
+  display: inline;
   padding: 20px;
   border: 2px solid red;
-}  
+}
