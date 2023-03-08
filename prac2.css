@@ -284,8 +284,7 @@ table.fancy-table{
 }
 
 .right {
-  display: flex;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .right p {
