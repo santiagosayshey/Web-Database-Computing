@@ -141,3 +141,9 @@ hr {
   word-spacing: 0.2em;
   text-align: justify;
 }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
