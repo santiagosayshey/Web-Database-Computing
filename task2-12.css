@@ -93,11 +93,19 @@ body {
   font-style: italic;
 }
 
-
+#get-started-button {
+  color: white;
+  background-color: darkorange;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+  text-decoration: none;
+}
 
 table {
   border-collapse: collapse;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 table tr th {
   text-align: left;
