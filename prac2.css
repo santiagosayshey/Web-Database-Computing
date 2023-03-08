@@ -189,19 +189,43 @@ ol ul li {
   list-style-type: square;
 }
 
-.fancy-table {
-  width: 500px;
-}
-.fancy-table tr {
-  background-color: darkslategrey;
-  border-bottom: darkgrey;
+table {
   text-align: left;
 }
 
-.fancy-table tr th{
+.fancy-table {
+  width: 500px;
+}
+
+.fancy-table tr.header {
+  background-color: darkslategrey;
+  border-bottom: darkgrey;
+
+}
+
+.fancy-table tr.header th{
   padding: 8px;
   color: white;
-  font-weight: normal;
-  border-left: none;
-  border-right: none;
+}
+
+.fancy-table tr.odd-row {
+  background-color: #F8F8F8;
+  border-bottom: darkgrey;
+
+}
+
+.fancy-table tr.odd-row th{
+  padding: 8px;
+  color: black;
+}
+
+.fancy-table tr.even-row {
+  background-color: white;
+  border-bottom: darkgrey;
+
+}
+
+.fancy-table tr.even-row th{
+  padding: 8px;
+  color: black;
 }
