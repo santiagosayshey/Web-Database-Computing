@@ -259,22 +259,20 @@ table.fancy-table{
 }
 
 .round-div {
-  margin: 10px;
   border-radius: 10px;
   border: darkgrey solid;
   background-color: white;
   padding: 10px;
+  margin: 10px;
 }
 
 div.left {
-  margin: 10px;
   float: left;
   width: 25%;
   height: 400px;
 }
 
 div.right {
-  margin: 10px;
   height: 400px;
   width: auto;
   display: flex;
