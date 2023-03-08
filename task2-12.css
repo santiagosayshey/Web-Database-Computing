@@ -4,6 +4,7 @@ body {
   background-repeat: repeat;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Quicksand', serif;
 }
 .main {
   background-color: white;
@@ -126,4 +127,13 @@ body {
   font-style: italic;
   font-family: 'Quicksand', serif;
   display: flex;
+}
+
+table tr th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.table-header th {
+  background-color: dimgray;
 }
