@@ -272,7 +272,6 @@ table.fancy-table{
 }
 .left {
   overflow: scroll;
-  float: left;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   width: 25%;
@@ -280,5 +279,5 @@ table.fancy-table{
 
 .right {
   width: auto;
-  display: flex;
+  display: inline-block;
 }
