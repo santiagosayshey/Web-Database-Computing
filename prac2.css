@@ -266,14 +266,19 @@ table.fancy-table{
   margin: 10px;
 }
 
-.left {
+.middle {
   margin: 10px;
   height: 400px;
-  display: flex;
+}
+.left {
+  overflow: scroll;
+  float: left;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 25%;
 }
 
 .right {
-  margin: 10px;
-  height: 400px;
-  display: flex;
+  width: auto;
+  display: inline-flex;
 }
