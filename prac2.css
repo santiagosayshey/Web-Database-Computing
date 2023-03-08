@@ -254,6 +254,18 @@ table.fancy-table{
   font-weight: normal;
 }
 
-.top-left {
-  vertical-align: top;
+.page11 {
+  width: 600px;
+}
+
+.round-div {
+  margin: 10x;
+  border-radius: 10px;
+  border: darkgrey solid;
+  background-color: white;
+  padding: 10px;
+}
+
+.left .right {
+  height: 400px;
 }
