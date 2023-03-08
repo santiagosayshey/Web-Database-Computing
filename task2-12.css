@@ -147,3 +147,12 @@ table tr th {
 .table-inner-odd th {
   background-color: #F8F8F8;
 }
+
+.lower-body {
+  display: flex;
+  padding: 30px;
+}
+
+h2 {
+  color: darkorange;
+}
