@@ -278,13 +278,28 @@ table.fancy-table{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   float: left;
+  width: 25%;
   margin-top: 0;
+  overflow: scroll;
 }
 
 .right {
-  display: flex;
+}
+
+.right p {
+  display: block;
 }
 
 .all {
   width: 600px;
+}
+
+div.red-box {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border: solid red;
+  overflow: hidden;
 }
