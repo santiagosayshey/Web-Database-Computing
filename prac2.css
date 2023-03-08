@@ -157,6 +157,7 @@ i {
 
 ol {
   background-color: darkgrey;
+  padding: 0.4em;
 }
 
 li {
@@ -167,6 +168,8 @@ li {
 }
 
 li:hover {
+  display: inline;
+  padding: 0.4em;
   background-color: white;
   color: darkgrey;
 }
