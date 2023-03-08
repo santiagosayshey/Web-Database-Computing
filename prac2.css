@@ -159,10 +159,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 60px;
 }
 
-a {
+li a{
   text-decoration: none;
+  display: inline;
+  width: 60px;
 }
 .roman-numeral {
   list-style-type: lower-roman;
