@@ -46,3 +46,11 @@ pre {
 #content {
   background-color: white;
 }
+
+.blue {
+  color: blue;
+}
+
+.fancy {
+  font-family: cursive;
+}
