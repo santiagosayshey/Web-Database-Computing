@@ -47,7 +47,7 @@ body {
 }
 
 .navbar li {
-  display: flex;
+  float: left;
   flex-direction: row;
 }
 
@@ -191,8 +191,10 @@ h2 {
 
 .footer-middle {
   color: white;
+  font-size: small;
 }
 
 .footer-right {
   color: white;
+  font-size: larger;
 }
