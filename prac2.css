@@ -274,6 +274,7 @@ table.fancy-table{
 .bottom-left {
   margin: 10px;
   margin-left: 0;
+  margin-right: 0;
   padding: 10px;
   height: 400px;
   width: 35%;
@@ -294,4 +295,11 @@ table.fancy-table{
   border: solid lightgray;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.red-box {
+  border: solid red 1pt;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px;
 }
