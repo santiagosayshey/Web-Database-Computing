@@ -299,10 +299,12 @@ table.fancy-table{
   border: solid lightgray;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 
 .bottom-right-top-text {
   margin-bottom: 0;
+  position: absolute;
 }
 
 .red-box {
