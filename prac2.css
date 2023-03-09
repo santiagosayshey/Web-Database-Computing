@@ -268,24 +268,30 @@ table.fancy-table{
   width: 100%;
   background-color: white;
   border: solid lightgray;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
 }
 .bottom-left {
   margin: 10px;
   margin-left: 0;
+  padding: 10px;
   height: 400px;
-  width: 25%;
+  width: 35%;
   background-color: white;
   border: solid lightgray;
-  border-radius: 20px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  overflow: scroll;
 }
 
 .bottom-right {
   margin: 10px;
   height: 400px;
-  width: auto;
+  width: 100%;
+  padding: 10px;
   background-color: white;
   border: solid lightgray;
-  border-radius: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
