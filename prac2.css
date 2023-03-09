@@ -318,3 +318,9 @@ table.fancy-table{
   border: solid grey;
   overflow: scroll;
 }
+
+.container-11 {
+  width: 600px;
+  margin: auto;
+  background-color: white;
+}
