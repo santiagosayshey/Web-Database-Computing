@@ -270,6 +270,7 @@ table.fancy-table{
   border: solid lightgray;
   border-radius: 10px;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .bottom {
@@ -281,7 +282,7 @@ table.fancy-table{
   margin-right: 0;
   padding: 10px;
   height: 400px;
-  width: 150px;
+  width: 300px;
   background-color: white;
   border: solid lightgray;
   border-radius: 10px;
@@ -292,8 +293,9 @@ table.fancy-table{
 
 .bottom-right {
   margin: 10px;
+  margin-right: 0;
   height: 400px;
-  width: 400px;
+  width: auto;
   padding: 10px;
   background-color: white;
   border: solid lightgray;
