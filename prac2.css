@@ -301,6 +301,10 @@ table.fancy-table{
   overflow: hidden;
 }
 
+.bottom-right-top-text {
+  margin-bottom: 0;
+}
+
 .red-box {
   border: solid red 1pt;
   width: 1000px;
