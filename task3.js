@@ -45,14 +45,12 @@ function post() {
   for (let j = 0; j < numPosts; j++) {
     parent.appendChild(post_time.cloneNode(true));
     parent.appendChild(post_content.cloneNode(true));
+    newOption.disabled = false;
+    newOption.selected = false;
+    newOption.innerText = totalPosts + j + 1;
+    dropDown.add(newOption.cloneNode(true));
   }
   totalPosts += numPosts;
-
-
-  newOption.disabled = false;
-  newOption.selected = false;
-  newOption.innerText = totalPosts;
-  dropDown.add(newOption);
 }
 
 function hideMain() {
