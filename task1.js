@@ -1,3 +1,3 @@
-function updateDate() {
-  let p = document.getElement
+function asdasd() {
+  let a = document.get
 }
