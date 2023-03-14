@@ -1,3 +1,3 @@
 function asdasd() {
-  let a = document.get
+  var a = document.getElement
 }
