@@ -28,14 +28,11 @@ function post() {
     }
   }
 
-  parent.appendChild(post_time);
   var numPosts = Number(document.getElementsByName("quantity")[0].value);
-  console.log(typeof (numPosts));
-
-  for (let j = 0; j < numPosts - 1; j++) {
-    parent.appendChild(post_content);
+  for (let j = 0; j < numPosts; j++) {
+    parent.appendChild(post_time.cloneNode(true));
+    parent.appendChild(post_content.cloneNode(true));
   }
-  parent.appendChild(post_time);
 }
 
 function hideMain() {
