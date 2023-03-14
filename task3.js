@@ -5,7 +5,7 @@ function counter(parent) {
 }
 
 
-
+let totalPosts = 0;
 function post() {
   var time = new Date();
   var temp = document.getElementsByTagName("textarea");
@@ -43,6 +43,7 @@ function post() {
     parent.appendChild(post_time.cloneNode(true));
     parent.appendChild(post_content.cloneNode(true));
   }
+  totalPosts += numPosts;
 }
 
 function hideMain() {
@@ -74,5 +75,5 @@ function showPosts(numPosts) {
     } else {
       parent.children[i].style.display = "none";
     }
-  } 
+  }
 }
