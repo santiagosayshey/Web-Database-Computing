@@ -23,6 +23,10 @@ function post() {
 
 }
 
-function hide() {
+function hideMenu() {
+  var main = document.getElementById("main");
+  var menu = document.getElementById("menu");
 
+  main.style.display = "none";
+  menu.style.display = "block";
 }
