@@ -44,3 +44,7 @@ hr {
     clear: both;
 }
 
+.post_time {
+    font-style: bold;
+    color: grey;
+}
