@@ -21,6 +21,9 @@ function post() {
   post_content.className = "post_content";
   post_content.innerText = content;
 
+  var blue = document.getElementBy
+
+
   parent.appendChild(post_time);
   parent.appendChild(post_content);
 
@@ -43,8 +46,4 @@ function hideMenu() {
 }
 
 function postColor(color) {
-  console.log(color);
-
-  var post = document.getElementsByClassName("post_content");
-  post.style.color = color;
 }
