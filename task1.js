@@ -1,3 +1,3 @@
 function updateDate() {
-var p = 
+  var p = document.get
 }
