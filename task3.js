@@ -28,6 +28,13 @@ function post() {
     }
   }
 
+  var style = document.getElementsByName("style");
+  for (let i = 0; i < style.length; i++) {
+    if (style[i].checked) {
+      post_content.style.style = style[i].value;
+    }
+  }
+
   var numPosts = Number(document.getElementsByName("quantity")[0].value);
   for (let j = 0; j < numPosts; j++) {
     parent.appendChild(post_time.cloneNode(true));
