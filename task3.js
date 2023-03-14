@@ -46,6 +46,10 @@ function post() {
   totalPosts += numPosts;
 
   var dropDown = document.getElementById("dropdown");
+  var newOption = document.createElement("option");
+  newOption.disabled = false;
+  newOption.selected = false;
+  newOption.
 }
 
 function hideMain() {
