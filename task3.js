@@ -74,5 +74,5 @@ function showPosts(numPosts) {
     } else {
       parent.children[i].style.display = "none";
     }
-  }
+  } 
 }
