@@ -68,7 +68,11 @@ function colorBG(parent) {
 
 function showPosts(numPosts) {
   var parent = document.getElementById('posts');
+  for (let i = 0; i < 2 * numPosts; i++) {
+    parent.children[i].style.display = "block";
+  }
   for (let i = 2 * numPosts; i < 2 * totalPosts; i++) {
     parent.children[i].style.display = "none";
   }
+
 }
