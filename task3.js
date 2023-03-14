@@ -53,5 +53,6 @@ function hideMenu() {
 
 function changeBG() {
   var body = document.getElementsByTagName("body");
-  body.style.b
+  console.log(body.style.backgroundColor);
+  body.style.backgroundColor = body.value;
 }
