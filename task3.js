@@ -33,8 +33,9 @@ function post() {
   console.log(typeof (numPosts));
 
   for (let j = 0; j < numPosts - 1; j++) {
-    post();
+    parent.appendChild(post_content);
   }
+  parent.appendChild(post_time);
 }
 
 function hideMain() {
