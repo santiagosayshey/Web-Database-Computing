@@ -38,7 +38,7 @@
 		  "github.copilot-nightly",
 		  "tabnine.tabnine-vscode"
 		],
-		"extensions.ignoreRecommendations": true,
+		"extensions.ignoreRecommendations": false,
 		"files.autoSave": "afterDelay",
 		"files.exclude": {
 		  "**/.*": true
