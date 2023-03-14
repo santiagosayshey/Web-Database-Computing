@@ -23,10 +23,18 @@ function post() {
 
 }
 
-function hideMenu() {
+function hideMain() {
   var main = document.getElementById("main");
   var menu = document.getElementById("menu");
 
   main.style.display = "none";
   menu.style.display = "block";
+}
+
+function hideMenu() {
+  var main = document.getElementById("main");
+  var menu = document.getElementById("menu");
+
+  main.style.display = "block";
+  menu.style.display = "none";
 }
