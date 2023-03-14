@@ -21,7 +21,11 @@ function post() {
   post_content.className = "post_content";
   post_content.innerText = content;
 
-  var blue = document.getElementBy
+  var color = document.getElementsByClassName("controls left");
+  for (let i =0; i<color.length-1;i++)
+  {
+  
+  }
 
 
   parent.appendChild(post_time);
@@ -43,7 +47,4 @@ function hideMenu() {
 
   main.style.display = "block";
   menu.style.display = "none";
-}
-
-function postColor(color) {
 }
