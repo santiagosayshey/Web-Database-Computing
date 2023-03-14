@@ -51,10 +51,6 @@ function hideMenu() {
   menu.style.display = "none";
 }
 
-var colorSelect = document.getElementById("color-select");
-
-colorSelect.onchange = function () {
-  console.log("HERE");
-  var color = this.value;
-  document.body.style.backgroundColor = color;
-};
+function colorBG(parent) {
+  document.body.style.backgroundColor = parent.value;
+}
