@@ -21,10 +21,9 @@ function post() {
   post_content.className = "post_content";
   post_content.innerText = content;
 
-  var color = document.getElementsByClassName("controls left");
-  for (let i =0; i<color.length-1;i++)
-  {
-  
+  var color = document.getElementsByClassName("controls left").childNodes;
+  for (let i = 0; i < color.length - 1; i++) {
+    console.log(color[i]);
   }
 
 
