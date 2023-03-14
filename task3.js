@@ -37,11 +37,12 @@ function post() {
         post_content.style.fontStyle = style[i].value;
     }
   }
-
+  var dropDown = document.getElementsByTagName("option")[0];
   var numPosts = Number(document.getElementsByName("quantity")[0].value);
   for (let j = 0; j < numPosts; j++) {
     parent.appendChild(post_time.cloneNode(true));
     parent.appendChild(post_content.cloneNode(true));
+    dropDown.add(post_content.cloneNode(true));
   }
   totalPosts += numPosts;
 }
