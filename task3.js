@@ -51,8 +51,9 @@ function hideMenu() {
   menu.style.display = "none";
 }
 
-function changeBG() {
-  var body = document.getElementsByTagName("body");
-  console.log(body.style.backgroundColor);
-  body.style.backgroundColor = body.value;
-}
+var backgroundSelect = document.getElementById("background-input");
+
+backgroundSelect.onchange = function () {
+  var color = this.value;
+  document.body.style.backgroundColor = color;
+};
