@@ -29,14 +29,12 @@ function post() {
   }
 
   parent.appendChild(post_time);
-  var numPosts = document.getElementsByName("quantity")[0].value;
+  var numPosts = Number(document.getElementsByName("quantity")[0].value);
+  console.log(typeof (numPosts));
 
-  for (let i = 0; i < numPosts; i++) {
-    parent.appendChild(post_content);
+  for (let j = 0; j < numPosts - 1; j++) {
+    post();
   }
-
-
-
 }
 
 function hideMain() {
