@@ -50,3 +50,8 @@ function hideMenu() {
   main.style.display = "block";
   menu.style.display = "none";
 }
+
+function changeBG() {
+  var body = document.getElementsByTagName("body");
+  body.style.b
+}
