@@ -29,7 +29,7 @@ function post() {
   }
 
   parent.appendChild(post_time);
-  var numPosts = document.getElementsByName("quantity");
+  var numPosts = document.getElementsByName("quantity").value;
 
   console.log(numPosts);
   for (let i = 0; i < numPosts; i++) {
