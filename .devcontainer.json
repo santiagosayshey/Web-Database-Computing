@@ -56,7 +56,9 @@
 		"gitdoc.enabled": true,
 		"gitdoc.pullOnOpen": false,
 		"html.suggest.html5": true,
+		"javascript.validate.enable": true,
 		"javascript.suggest.enabled": true,
+		"javascript.suggest.autoImports": true,
 		"terminal.integrated.defaultProfile.linux": "bash"
 	}
 
