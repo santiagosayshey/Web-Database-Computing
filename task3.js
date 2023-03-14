@@ -21,11 +21,12 @@ function post() {
   post_content.className = "post_content";
   post_content.innerText = content;
 
-  var color = document.getElementsByClassName("controls left").childNodes;
-  for (let i = 0; i < color.length - 1; i++) {
-    console.log(color[i]);
+  var color = document.getElementsByName("color");
+  for (let i = 0; i < color.length; i++) {
+    if (color[i].checked) {
+      post_content.style.color = color[i].value;
+    }
   }
-
 
   parent.appendChild(post_time);
   parent.appendChild(post_content);
