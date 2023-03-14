@@ -1,3 +1,3 @@
 function updateDate() {
-  var p = document.get
+  let p = document.getElement
 }
