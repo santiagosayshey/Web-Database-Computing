@@ -37,19 +37,22 @@ function post() {
         post_content.style.fontStyle = style[i].value;
     }
   }
+  var dropDown = document.getElementById("dropdown");
+  var newOption = document.createElement("option");
 
   var numPosts = Number(document.getElementsByName("quantity")[0].value);
+
   for (let j = 0; j < numPosts; j++) {
     parent.appendChild(post_time.cloneNode(true));
     parent.appendChild(post_content.cloneNode(true));
   }
   totalPosts += numPosts;
 
-  var dropDown = document.getElementById("dropdown");
-  var newOption = document.createElement("option");
+
   newOption.disabled = false;
   newOption.selected = false;
-  newOption.
+  newOption.innerText = totalPosts;
+  dropDown.add(newOption);
 }
 
 function hideMain() {
