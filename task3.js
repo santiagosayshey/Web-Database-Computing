@@ -47,7 +47,7 @@ function post() {
     parent.appendChild(post_content.cloneNode(true));
     newOption.disabled = false;
     newOption.selected = false;
-    newOption.innerText = totalPosts + j + 1;
+    newOption.innerText = post_content.innerText;
     dropDown.add(newOption.cloneNode(true));
   }
   totalPosts += numPosts;
