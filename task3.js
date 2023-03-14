@@ -29,7 +29,14 @@ function post() {
   }
 
   parent.appendChild(post_time);
-  parent.appendChild(post_content);
+  var numPosts = document.getElementsByName("quantity");
+
+  console.log(numPosts);
+  for (let i = 0; i < numPosts; i++) {
+    parent.appendChild(post_content);
+  }
+
+
 
 }
 
