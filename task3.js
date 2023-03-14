@@ -1,11 +1,6 @@
-let mCounter = 0;
-
-function mcount() {
-  var child = document.createElement("P");
-  var parent = document.getElementById("mcount");
-  if (mCounter === 0) {
-    parent.appendChild(child);
-  }
-  mCounter++;
-  child.innerText = mCounter;
+let count = 0;
+function counter() {
+  count++;
+  var div = document.getElementById("mcount");
+  div.innerHTML = count;
 }
