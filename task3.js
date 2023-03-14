@@ -54,6 +54,7 @@ function hideMenu() {
 var colorSelect = document.getElementById("color-select");
 
 colorSelect.onchange = function () {
+  console.log("HERE");
   var color = this.value;
   document.body.style.backgroundColor = color;
-}
+};
