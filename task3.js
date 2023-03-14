@@ -64,3 +64,15 @@ function hideMenu() {
 function colorBG(parent) {
   document.body.style.backgroundColor = parent.value;
 }
+
+function showPosts(numPosts) {
+  var parent = document.getElementById('posts');
+
+  for (let i = 1; i < 11 + 1; i++) {
+    if (i < numPosts) {
+      parent.children[i].style.display = "block";
+    } else {
+      parent.children[i].style.display = "none";
+    }
+  }
+}
