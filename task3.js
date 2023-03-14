@@ -31,7 +31,10 @@ function post() {
   var style = document.getElementsByName("style");
   for (let i = 0; i < style.length; i++) {
     if (style[i].checked) {
-      post_content.style.fontStyle = style[i].value;
+      if (style[i].value == "bold")
+        post_content.style.fontWeight = style[i].value;
+      if (style[i].value == "italic")
+        post_content.style.fontStyle = style[i].value;
     }
   }
 
