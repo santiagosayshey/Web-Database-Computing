@@ -1,4 +1,4 @@
 function updateDate() {
-  let p = document.getElementsByName("p2");
-  p[0].innerText = new Date();
+  let p = document.getElementById("current_time");
+  p.innerText = new Date();
 }
