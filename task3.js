@@ -29,9 +29,8 @@ function post() {
   }
 
   parent.appendChild(post_time);
-  var numPosts = document.getElementsByName("quantity").value;
+  var numPosts = document.getElementsByName("quantity")[0].value;
 
-  console.log(numPosts);
   for (let i = 0; i < numPosts; i++) {
     parent.appendChild(post_content);
   }
