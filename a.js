@@ -1,3 +1,3 @@
 function a() {
-  let a = document.getElementbyIdasdasd
+  console.log("asdasd")
 }
