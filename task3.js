@@ -38,3 +38,8 @@ function hideMenu() {
   main.style.display = "block";
   menu.style.display = "none";
 }
+
+function postColor(color)
+{
+  
+}
