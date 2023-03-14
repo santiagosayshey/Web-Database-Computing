@@ -1,2 +1,3 @@
-'use strict';
-
+function updateDate() {
+var p = 
+}
