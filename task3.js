@@ -1,8 +1,7 @@
 let count = 0;
-function counter() {
+function counter(parent) {
   count++;
-  var div = document.getElementById("mcount");
-  div.innerHTML = count;
+  parent.innerHTML = count;
 }
 
 function post() {
@@ -21,5 +20,9 @@ function post() {
   var parent = document.getElementById('posts');
   parent.appendChild(post_time);
   parent.appendChild(post_content);
+
+}
+
+function hide() {
 
 }
