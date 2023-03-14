@@ -31,7 +31,7 @@ function post() {
   var style = document.getElementsByName("style");
   for (let i = 0; i < style.length; i++) {
     if (style[i].checked) {
-      post_content.style.style = style[i].value;
+      post_content.style.fontStyle = style[i].value;
     }
   }
 
