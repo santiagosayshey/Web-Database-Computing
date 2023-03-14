@@ -7,6 +7,7 @@ function counter() {
 
 function post() {
   var time = new Date();
+  time = time.toLocaleDateString();
   var temp = document.getElementsByTagName("textarea");
   var content = temp[0].value;
 
