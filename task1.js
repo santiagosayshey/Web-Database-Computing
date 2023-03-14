@@ -1,3 +1,1 @@
-function updateDate() {
-  
-}
+console.log()
