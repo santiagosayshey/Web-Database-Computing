@@ -70,7 +70,8 @@ function showPosts(numPosts) {
   var parent = document.getElementById('posts');
   console.log(numPosts);
   console.log(totalPosts);
-  /*   for (let i = numPosts; i < totalPosts; i) {
-      parent.children[i].style.display = "none";
-    } */
+
+  for (let i = 2 * numPosts; i < 2 * totalPosts; i++) {
+    parent.children[i].style.display = "none";
+  }
 }
